@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  padding: 2rem;
+  padding-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(min-content, 30rem));
+  grid-template-rows: 8rem min-content 40vw repeat(auto, min-content);
+  grid-gap: 1.5rem;
+  align-content: center;
+  justify-content: center;
+}
+
